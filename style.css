@@ -116,12 +116,16 @@ body {
     display: flex;
     flex-direction: row; /* changed from column to row */
     gap: 15px;
-    justify-content: center;
-    margin-bottom: 30px;
+    justify-content: end;
+    margin: 0;
+    /* border: 1px solid black; */
+    width: 1220px;
+    background-color: white;
+    border-radius: 30px;
 }
 
 .nav button {
-    background: #02a3c7;
+    background: #00c3ff;
     color: white;
     padding: 15px 25px;
     border: none;
@@ -167,3 +171,4 @@ body {
         gap: 10px;
     }
 }
+
